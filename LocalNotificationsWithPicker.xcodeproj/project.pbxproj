@@ -11,6 +11,9 @@
 		E4CCB4BF28C64036008D0D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCB4BE28C64036008D0D2A /* ContentView.swift */; };
 		E4CCB4C128C6403A008D0D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CCB4C028C6403A008D0D2A /* Assets.xcassets */; };
 		E4CCB4C428C6403A008D0D2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CCB4C328C6403A008D0D2A /* Preview Assets.xcassets */; };
+		E4CCB4CB28C642AE008D0D2A /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCB4CA28C642AE008D0D2A /* NotificationListView.swift */; };
+		E4CCB4CD28C642C4008D0D2A /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCB4CC28C642C4008D0D2A /* NotificationManager.swift */; };
+		E4CCB4CF28C65268008D0D2A /* CreateIdentificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCB4CE28C65268008D0D2A /* CreateIdentificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		E4CCB4BE28C64036008D0D2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4CCB4C028C6403A008D0D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4CCB4C328C6403A008D0D2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4CCB4CA28C642AE008D0D2A /* NotificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListView.swift; sourceTree = "<group>"; };
+		E4CCB4CC28C642C4008D0D2A /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		E4CCB4CE28C65268008D0D2A /* CreateIdentificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIdentificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				E4CCB4BE28C64036008D0D2A /* ContentView.swift */,
 				E4CCB4C028C6403A008D0D2A /* Assets.xcassets */,
 				E4CCB4C228C6403A008D0D2A /* Preview Content */,
+				E4CCB4CA28C642AE008D0D2A /* NotificationListView.swift */,
+				E4CCB4CC28C642C4008D0D2A /* NotificationManager.swift */,
+				E4CCB4CE28C65268008D0D2A /* CreateIdentificationView.swift */,
 			);
 			path = LocalNotificationsWithPicker;
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			files = (
 				E4CCB4BF28C64036008D0D2A /* ContentView.swift in Sources */,
 				E4CCB4BD28C64036008D0D2A /* LocalNotificationsWithPickerApp.swift in Sources */,
+				E4CCB4CD28C642C4008D0D2A /* NotificationManager.swift in Sources */,
+				E4CCB4CF28C65268008D0D2A /* CreateIdentificationView.swift in Sources */,
+				E4CCB4CB28C642AE008D0D2A /* NotificationListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

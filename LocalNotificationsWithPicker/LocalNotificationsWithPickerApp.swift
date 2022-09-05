@@ -11,7 +11,10 @@ import SwiftUI
 struct LocalNotificationsWithPickerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                NotificationListView()
+            }
+            .accentColor(.primary)
         }
     }
 }
